@@ -1,0 +1,49 @@
+.small-container{
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(204, 213, 219);
+    padding: 10px;
+    grid-gap: 30px;
+    
+      
+}
+
+
+th{ border: 2px solid grey;
+    justify-content: right;
+     text-align: center;
+     width: 200px;}
+
+td{ border: 2px solid grey;
+        width: 100px;}
+    
+.lorem{
+    display: grid;
+    background-color: teal;
+    justify-content: center;
+
+}
+.smallcontainer2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(204, 213, 219);
+    padding: 10px;
+    grid-gap: 30px;
+}
+h2:after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    background-color: #242424;
+    width: 800px;
+    margin-left: 15px;
+    top:5%;
+    }
+.topheading{
+    background-color: rgb(204, 213, 219);
+}
+.topheading2{
+    background-color: rgb(204, 213, 219);
+    justify-content: right;
+}
